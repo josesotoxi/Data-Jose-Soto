@@ -1,0 +1,8 @@
+*cargar base de datos-archivo CSV
+import pandas as pd
+df1 = pd.read_csv('https://github.com/josesotoxi/Data-Jose-Soto/raw/refs/heads/main/Education%20expenditures.csv')
+df2 = pd.read_csv('https://github.com/josesotoxi/Data-Jose-Soto/raw/refs/heads/main/Public%20debt.csv')
+
+df_combinado = pd.concat([df1[nameis',% of GDPes', 'region']], df2[nameis'% of GDPees', 'region']]], ignore_index=True)
+*resultado
+print(df_combinado.head
